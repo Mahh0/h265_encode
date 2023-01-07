@@ -9,6 +9,9 @@ Small powershell script to automatically to automatically encode videos to h265 
       - Type PATH in Windows
       - In the window : Modify Environment variables > Env variable > and into system (or user) modify the path to add the path to the exe (ex : C:\Program Files (x86)\HandBrakeCLI-1.6.0-win-x86_64)
 
+2. Exec policy
+**In PowerShell or Terminal** : Set-ExecutionPolicy -Scope "CurrentUser" -ExecutionPolicy "Unrestricted"
+
 ## 2. How to install
 1. Put the PS1 script somewhere (mine is in C:\Users\mahoa)
 2. Update the script with your values (yep I'm too lazy to make an env file)
